@@ -12,12 +12,12 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     preprocessors: {
-      '**/*.es6': ['traceur']
+      '**/*.js': ['traceur']
     },
 
     // list of files / patterns to load in the browser
     files: [
-      'src/**/*.es6',
+      'src/**/*.js',
       'test/**/*.js'
     ],
 
@@ -29,7 +29,7 @@ module.exports = function(config) {
 
     traceurPreprocessor: {
       options: {
-        sourceMaps: true,
+        sourceMap: true,
         types: true
       }
     },

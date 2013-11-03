@@ -6,7 +6,6 @@ class Calculator {
   }
 
   subtract(x, y) {
-    var test:Calculator = new Calculator();
     return x - y;
   }
 }
