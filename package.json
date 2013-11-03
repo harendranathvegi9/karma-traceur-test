@@ -1,5 +1,13 @@
 {
   "name": "karma-traceur-test",
+  "description": "Example ES6 project tested with karma using traceur-compiler",
+  "version": "0.0.1",
+  "author": "Tommy Odom",
+  "license": "Apache License 2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tpodom/karma-traceur-test"
+  },
   "devDependencies": {
     "karma": "~0.10",
     "karma-traceur-preprocessor": "~0.1",
