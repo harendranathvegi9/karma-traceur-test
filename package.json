@@ -1,0 +1,8 @@
+{
+  "name": "karma-traceur-test",
+  "devDependencies": {
+    "karma": "~0.10",
+    "karma-traceur-preprocessor": "~0.1",
+    "traceur": "0.0.4"
+  }
+}
