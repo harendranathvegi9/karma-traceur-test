@@ -12,12 +12,12 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
 
     preprocessors: {
-      '**/*.js': ['traceur']
+      '**/*.es6': ['traceur']
     },
 
     // list of files / patterns to load in the browser
     files: [
-      'src/**/*.js',
+      'src/**/*.es6',
       'test/**/*.js'
     ],
 
