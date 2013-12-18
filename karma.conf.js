@@ -9,7 +9,7 @@ module.exports = function(config) {
 
 
     // frameworks to use
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine', 'requirejs', 'traceur'],
 
     preprocessors: {
       '**/*.es6': ['traceur']
@@ -17,19 +17,21 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'src/**/*.es6',
-      'test/**/*.js'
+      {pattern: 'src/**/*.es6', included: false},
+      {pattern: 'test/**/*Spec.es6', included: false},
+      'test/test-main.js'
     ],
 
 
     // list of files to exclude
     exclude: [
-      
     ],
 
     traceurPreprocessor: {
       options: {
         sourceMap: true,
+        modules: 'requirejs',
+        annotations: true,
         types: true
       }
     },
