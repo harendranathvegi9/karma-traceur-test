@@ -9,7 +9,7 @@
     "url": "https://github.com/tpodom/karma-traceur-test"
   },
   "devDependencies": {
-    "karma": "~0.10",
+    "karma": "~0.12",
     "karma-traceur-preprocessor": "~0.1",
     "karma-jasmine": "~0.1",
     "karma-chrome-launcher": "~0.1"
