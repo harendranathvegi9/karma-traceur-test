@@ -10,6 +10,8 @@
   },
   "devDependencies": {
     "karma": "~0.12",
+    "karma-cli": "~0.0.4",
+    "karma-requirejs": "~0.2.1",
     "karma-traceur-preprocessor": "~0.1",
     "karma-jasmine": "~0.1",
     "karma-chrome-launcher": "~0.1"
